@@ -7,6 +7,9 @@
 ![image](https://github.com/user-attachments/assets/363d08a5-a57e-4e3e-a5fc-929f525e2588)
 
 三、人脸识别模块（用于签到）
+要先去虹软人脸识别SDK官方申请id和key
+
+![image](https://github.com/user-attachments/assets/20d8fead-13f7-4319-bc45-e04c4e7ac259)
 
 人员到场情况（签到）实现
 页面如图5.9所示管理员通过访问前端页面进入系统。页面包含了开始识别和结束识别按钮，这些按钮通过JavaScript函数与后端服务进行交互。当用户点击开始识别按钮时，JavaScript函数startTracking()被触发，它首先创建了一个人脸跟踪器tracker，并设置了相关参数，如初始比例、步长和边缘密度。接着，它在视频流上启动人脸跟踪器，开始捕捉摄像头实时的视频流并检测其中的人脸。
@@ -52,6 +55,10 @@
 
 
 ![image](https://github.com/user-attachments/assets/6c977532-8f16-48d9-95ba-d66fcf7b6207)
+
+四、联系方式
+![8f3c87e172e6f9aeb20bde16e24256f](https://github.com/user-attachments/assets/8f8ccf7e-ff76-4a74-a1b0-86c47dab8b3f)
+
 
 
 
